@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: NuRelm Get Posts
-Plugin URI: http://www.nurelm.com/themanual
-Description: Adds a shortcode tag [get_posts] to display a list of posts.
+Plugin Name: Get Posts
+Plugin URI: http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/
+Description: Adds a shortcode tag [get_posts] to display a list of posts on any static page or post.
 Version: 0.1
-Author: Sami Shaaban
+Author: Sam Shaaban
 Author URI: http://www.nurelm.com/
 */
 
