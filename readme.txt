@@ -40,6 +40,10 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 1. Place `[get_posts]` in your pages. Check the [plugin homepage](http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/) for
 detailed options and more complex uses.
 
+== Changelog ==
+
+= 0.1 =
+* Initial release.
 == Frequently Asked Questions ==
 
 Check the [plugin homepage](http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/)
