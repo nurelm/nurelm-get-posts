@@ -23,7 +23,7 @@ To use it, just put the following into the HTML of any page or post, use as many
 This default usage will return the last 10 posts in reverse chronological order.  Along with all the options
 provided by the get_posts template tag, it will also accept one additional option:
 
-	ul_class: This is the class assigned to the bullet list.  Default of "get_posts_class".
+  ul_class: This is the class assigned to the bullet list.  Default of "get_posts_class".
 
 An example with a few options:
 
@@ -35,10 +35,9 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 
 == Installation ==
 
-1. Upload `nurelm-get-posts.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `[get_posts]` in your pages. Check the [plugin homepage](http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/) for
-detailed options and more complex uses.
+1. Upload the plugin to the `/wp-content/plugins/` directory and unzip it.
+1. Activate the plugin through the 'Plugins' menu in WordPress.
+1. Place `[get_posts]` in your pages. Check the [plugin homepage](http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/) for detailed options and more complex uses.
 
 == Changelog ==
 
