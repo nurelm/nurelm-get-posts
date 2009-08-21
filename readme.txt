@@ -1,6 +1,6 @@
-=== NuRelm Get Posts ===
+=== Get Posts ===
 Author URI: http://www.nurelm.com/themanual
-Plugin URI: http://www.nurelm.com/themanual
+Plugin URI: http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/
 Contributors: nurelm
 Tags: get_posts, post, posts, formatting, list, shortcode
 Requires at least: 2.5.1
