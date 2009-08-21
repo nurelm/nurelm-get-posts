@@ -23,7 +23,7 @@ To use it, just put the following into the HTML of any page or post, use as many
 This default usage will return the last 10 posts in reverse chronological order.  Along with all the options
 provided by the get_posts template tag, it will also accept one additional option:
 
-  ul_class: This is the class assigned to the bullet list.  Default of "get_posts_class".
+  'ul_class': This is the class assigned to the bullet list.  Default of "get_posts_class".
 
 An example with a few options:
 
