@@ -23,10 +23,10 @@ To use it, just put the following into the HTML of any page or post, use as many
 This default usage will return the last 10 posts in reverse chronological order.  Along with all the options
 provided by the get_posts template tag, it will also accept a few additional options:
 
-- ul_class. This is the class assigned to the bullet list, with a default of "get_posts_class".
+- ul\_class. This is the class assigned to the bullet list, with a default of "get_posts_class".
 - fields. This is a comma separated list of fields to show, taken right from the [wp_posts database table fields](http://codex.wordpress.org/Database_Description/2.7#Table:_wp_posts).  Some of the more interesting fields you can use in this list include post_title, post_date, and post_excerpt (you'll find more in the table description referenced above).  The default is "post_title".
-- fields_classes.  Another comma separated list that lets you assign a class to each of the fields specified above, which will be provided via a <span> tag wrapped around the field.  The default value for this list is "post_title_class".
-- fields_make_link.  One more comma separated list that lets you choose which of your fields are links to the post.  It is a list of either "true" or "false" values ... values of "true" make the corresponding field a link. The default is "true".
+- fields\_classes.  Another comma separated list that lets you assign a class to each of the fields specified above, which will be provided via a <span> tag wrapped around the field.  The default value for this list is "post_title_class".
+- fields\_make\_link.  One more comma separated list that lets you choose which of your fields are links to the post.  It is a list of either "true" or "false" values ... values of "true" make the corresponding field a link. The default is "true".
 
 A couple of examples:
 
