@@ -5,7 +5,7 @@ Contributors: nurelm
 Tags: get_posts, post, posts, formatting, list, shortcode
 Requires at least: 2.5.1
 Tested up to: 2.8.4
-Stable tag: 0.1
+Stable tag: 0.2
 
 Adds a shortcode tag [get_posts] to display a list of posts within any static page or post.
 
