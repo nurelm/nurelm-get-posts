@@ -3,7 +3,7 @@
 Plugin Name: NuRelm Get Posts
 Plugin URI: http://www.nurelm.com/themanual
 Description: Adds a shortcode tag [get_posts] to display a list of posts.
-Version: 0.1
+Version: 0.2
 Author: Sami Shaaban
 Author URI: http://www.nurelm.com/
 */
