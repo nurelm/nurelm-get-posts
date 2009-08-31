@@ -21,19 +21,24 @@ To use it, just put the following into the HTML of any page or post, use as many
 	[get_posts]
 
 This default usage will return the last 10 posts in reverse chronological order.  Along with all the options
-provided by the get_posts template tag, it will also accept one additional option:
+provided by the get_posts template tag, it will also accept a few additional options:
 
-	[get_posts ul_class='my-class-name']
+- ul_class. This is the class assigned to the bullet list, with a default of "get_posts_class".
+- fields. This is a comma separated list of fields to show, taken right from the [wp_posts database table fields](http://codex.wordpress.org/Database_Description/2.7#Table:_wp_posts).  Some of the more interesting fields you can use in this list include post_title, post_date, and post_excerpt (you'll find more in the table description referenced above).  The default is "post_title".
+- fields_classes.  Another comma separated list that lets you assign a class to each of the fields specified above, which will be provided via a <span> tag wrapped around the field.  The default value for this list is "post_title_class".
+- fields_make_link.  One more comma separated list that lets you choose which of your fields are links to the post.  It is a list of either "true" or "false" values ... values of "true" make the corresponding field a link. The default is "true".
 
-This is the class assigned to the bullet list.
-
-An example with a few options:
+A couple of examples:
 
 	[get_posts tag="my favorite tag" numberposts=5 orderby="title]
 
-Shows 5 posts with the tag "my favorite tag" ordered by title.
+Shows a bulleted list consisting of the titles of 5 posts with the tag "my favorite tag" ordered by title.
 
-Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_posts) documentation for all of the possible options.
+	[get_posts tag="my favorite tag" fields="post_title, post_date, post_excerpt" fields_classes="class1, class2, class3" fields_make_link="true, false, false"]
+
+Shows a bulleted list consisting of the titles, post dates, and excerpts of posts with the tag "my favorite tag".  The title will be wrapped in a <span> tag with a class of "class1", the date with a <span> of class "class2", and the excerpt with "class3".  Only the title will provide a link to the post.
+
+Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_posts) documentation for all of the possible options associated with the tag, and the [wp_posts database table fields](http://codex.wordpress.org/Database_Description/2.7#Table:_wp_posts) for all possible field names.
 
 == Installation ==
 
@@ -43,8 +48,12 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 
 == Changelog ==
 
+= 0.2 =
+* Added the fields, fields_classes, and fields_make_link attributes.
+
 = 0.1 =
 * Initial release.
+
 == Frequently Asked Questions ==
 
 Check the [plugin homepage](http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/)
