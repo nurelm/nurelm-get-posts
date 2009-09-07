@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: NuRelm Get Posts
-Plugin URI: http://www.nurelm.com/themanual
+Plugin URI: http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/
 Description: Adds a shortcode tag [get_posts] to display a list of posts.
 Version: 0.2
 Author: Sami Shaaban
 Author URI: http://www.nurelm.com/
 */
 
-/*  Copyright 2008  Jonathan Spence  (email : gpl@jonathanspence.com)
+/*  Copyright 2009 Sami Shaaban (sam@nurelm.com) 
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
