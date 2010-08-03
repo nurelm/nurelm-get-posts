@@ -48,6 +48,9 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 
 == Changelog ==
 
+= 0.3 =
+* Tested with WP 3.0.1
+
 = 0.2 =
 * Added the fields, fields_classes, and fields_make_link attributes.
 
