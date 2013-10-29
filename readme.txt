@@ -4,8 +4,8 @@ Plugin URI: http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/
 Contributors: nurelm
 Tags: get_posts, post, posts, formatting, list, shortcode
 Requires at least: 2.5.1
-Tested up to: 3.0.1
-Stable tag: 0.3
+Tested up to: 3.7
+Stable tag: 0.4
 
 Adds a shortcode tag [get_posts] to display a list of posts within any static page or post.
 
@@ -13,7 +13,7 @@ Adds a shortcode tag [get_posts] to display a list of posts within any static pa
 
 This plugin adds the ability to put a shortcode tag in any static page or post and have it display a list of posts using the get_posts template tag.
 
-By default it will show the 10 most recent posts ordered in reverse date order,
+By default it will show the 5 most recent posts ordered in reverse date order,
 but it will accept any of the options provided by the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_posts).
 
 To use it, just put the following into the HTML of any page or post, use as many times as you like on the same page:
@@ -47,6 +47,9 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 1. Place `[get_posts]` in your pages. Check the [plugin homepage](http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/) for detailed options and more complex uses.
 
 == Changelog ==
+
+= 0.4 =
+* Tested with WP 3.7
 
 = 0.3 =
 * Tested with WP 3.0.1
