@@ -13,7 +13,7 @@ Adds a shortcode tag [get_posts] to display a list of posts within any static pa
 
 This plugin adds the ability to put a shortcode tag in any static page or post and have it display a list of posts using the get_posts template tag.
 
-By default it will show the 10 most recent posts ordered in reverse date order,
+By default it will show the 5 most recent posts ordered in reverse date order,
 but it will accept any of the options provided by the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_posts).
 
 To use it, just put the following into the HTML of any page or post, use as many times as you like on the same page:
@@ -30,9 +30,9 @@ provided by the get_posts template tag, it will also accept a few additional opt
 
 A couple of examples:
 
-	[get_posts tag="my favorite tag" numberposts=5 orderby="title]
+	[get_posts tag="my favorite tag" numberposts=7 orderby="title]
 
-Shows a bulleted list consisting of the titles of 5 posts with the tag "my favorite tag" ordered by title.
+Shows a bulleted list consisting of the titles of 7 posts with the tag "my favorite tag" ordered by title.
 
 	[get_posts tag="my favorite tag" fields="post_title, post_date, post_excerpt" fields_classes="class1, class2, class3" fields_make_link="true, false, false"]
 
@@ -49,7 +49,7 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 == Changelog ==
 
 = 0.3 =
-* Tested with WP 3.0.1
+* Tested with WP 3.7
 
 = 0.2 =
 * Added the fields, fields_classes, and fields_make_link attributes.
