@@ -4,8 +4,8 @@ Plugin URI: http://www.nurelm.com/themanual/2009/08/21/nurelm-get-posts/
 Contributors: nurelm
 Tags: get_posts, post, posts, formatting, list, shortcode
 Requires at least: 2.5.1
-Tested up to: 3.0.1
-Stable tag: 0.3
+Tested up to: 3.7
+Stable tag: 0.4
 
 Adds a shortcode tag [get_posts] to display a list of posts within any static page or post.
 
@@ -30,9 +30,9 @@ provided by the get_posts template tag, it will also accept a few additional opt
 
 A couple of examples:
 
-	[get_posts tag="my favorite tag" numberposts=7 orderby="title]
+	[get_posts tag="my favorite tag" numberposts=5 orderby="title]
 
-Shows a bulleted list consisting of the titles of 7 posts with the tag "my favorite tag" ordered by title.
+Shows a bulleted list consisting of the titles of 5 posts with the tag "my favorite tag" ordered by title.
 
 	[get_posts tag="my favorite tag" fields="post_title, post_date, post_excerpt" fields_classes="class1, class2, class3" fields_make_link="true, false, false"]
 
@@ -48,8 +48,11 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 
 == Changelog ==
 
-= 0.3 =
+= 0.4 =
 * Tested with WP 3.7
+
+= 0.3 =
+* Tested with WP 3.0.1
 
 = 0.2 =
 * Added the fields, fields_classes, and fields_make_link attributes.
