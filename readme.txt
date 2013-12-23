@@ -42,7 +42,10 @@ A couple of examples:
 
 Shows a bulleted list consisting of the titles of 5 posts with the tag "my favorite tag" ordered by title.
 
-	[get_posts tag="my favorite tag" fields="post_title, post_date, post_excerpt, post_featured_image, custom_text" fields_classes="class1, class2, class3, class4, class5" fields_make_link="true, false, false, false, true", custom_text_value="Read More"]
+	[get_posts tag="my favorite tag" fields="post_title, post_date, post_excerpt,
+  post_featured_image, custom_text" fields_classes="class1, class2, class3, class4,
+  class5" fields_make_link="true, false, false, false, true",
+  custom_text_value="Read More"]
 
 Shows a bulleted list consisting of the titles, post dates, and excerpts of posts with the tag "my favorite tag".  The title will be wrapped in a <span> tag with a class of "class1", the date with a <span> of class "class2", and the excerpt with "class3".  Only the title will provide a link to the post. Also shows the post's featured image (in thumbnail size) and "Read More".
 
