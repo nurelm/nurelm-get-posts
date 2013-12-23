@@ -61,6 +61,7 @@ Check the [get_posts template tag](http://codex.wordpress.org/Template_Tags/get_
 
 = 0.6 =
 * Added featured_image and custom_text field options
+* Don't output empty unordered list if no posts are found
 * Tested in WP 3.8
 
 = 0.5 =
